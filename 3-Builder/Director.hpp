@@ -1,11 +1,11 @@
 /*
-* @Module: Director interface header.
+* @Module: Director.hpp.
 * @Auther: ngmj
 * @Create date: 2017.01.09
 */
 
-#ifndef _DIRECTOR_H_
-#define _DIRECTOR_H_
+#ifndef _DIRECTOR_HPP_
+#define _DIRECTOR_HPP_
 
 #include <stdio.h>
 #include "Builder.h"
