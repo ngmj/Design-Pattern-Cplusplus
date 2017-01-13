@@ -26,16 +26,6 @@ public:
     {
         firepower += _f;
     }
-    /*
-    virtual unsigned int GetSpeed()
-    {
-        return speed;
-    }
-    virtual unsigned int GetFirepower()
-    {
-        return firepower;
-    }
-    */
     virtual void Run() = 0;
     virtual void Shoot() = 0;
 };

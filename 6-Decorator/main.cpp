@@ -12,6 +12,7 @@
 
 int main(int argc, char* argv[])
 {
+    // 一定要明白，这里装饰后，是希望它是一辆新的坦克，还是在原有的基础上增加了一些装饰
     Tank* pNormalTank = new NormalTank();
     Tank* pGanonTank = new GanonDecorator(pNormalTank);
     Tank* pAmphibious = new AmphibiousDecorator(pGanonTank);

@@ -7,6 +7,9 @@
 #ifndef _DECORATOR_H_
 #define _DECORATOR_H_
 
+// 因为装饰者仅是对原有的对象的装饰，所有的方法都必须针对成员变量里的那个Tank* pt
+// 非常重要（切记切记...）
+
 class Decorator : public Tank
 {
 protected:
